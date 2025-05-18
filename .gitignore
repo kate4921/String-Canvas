@@ -1,0 +1,47 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Добавьте эти строки в конец файла:
+
+# Файлы сборки OpenCV (чтобы избежать ошибки "Filename too long")
+/opencv/build/
+/opencv/.cxx/
+/opencv/.externalNativeBuild/
+
+# Дополнительные временные файлы Android/Gradle
+*.log
+*.kt.bak
+*.java.bak
+
+# Файлы настроек Android Studio (дополнение к существующим)
+/.idea/modules/
+/.idea/compiler.xml
+/.idea/gradle.xml
+/.idea/jarRepositories.xml
+/.idea/kotlinc.xml
+
+# Логи Kotlin (у вас уже есть .kotlin/, но лучше явно указать)
+.kotlin/errors/
+.kotlin/caches/
+
+# Файлы, специфичные для Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Файлы, созданные тестами
+**/build/reports/
+**/build/test-results/

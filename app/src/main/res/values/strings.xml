@@ -1,0 +1,97 @@
+<resources>
+    <!-- Общие строки приложения -->
+    <string name="app_name">StringCanvas</string>
+
+    <!-- Уведомления -->
+    <string name="generation_complete_message">Ваши инструкции готовы к просмотру</string>
+    <string name="generation_channel_name">Генерация инструкций</string>
+    <string name="generation_channel_description">Уведомления о процессе генерации</string>
+    <string name="generation_preparing">Подготавливаем данные…</string>
+    <string name="generation_in_progress_title">Генерация идёт</string>
+    <string name="generation_complete_title">Генерация завершена</string>
+    <string name="generation_complete_ready">Готово</string>
+    <string name="generation_complete_error">Ошибка генерации</string>
+
+    <!-- HomeScreen -->
+    <string name="nails_count_label">Количество гвоздей</string>
+    <string name="threads_count_label">Количество нитей</string>
+    <string name="generate_button">Сгенерировать</string>
+    <string name="enter_number_hint">Введите число</string>
+    <string name="selected_value_label">Выбранное значение: %d</string>
+    <string name="number_range_error">Введите целое число от %d до %d</string>
+    <string name="choose_image_button">Выбрать изображение</string>
+    <string name="image_picker_description">Выбранное изображение</string>
+    <string name="default_image_description">Изображение по умолчанию</string>
+
+    <!-- SavedInstructionsScreen -->
+    <string name="saved_instructions_title">Мои инструкции</string>
+    <string name="search_hint">Поиск инструкций...</string>
+    <string name="found_count">Найдено: %d</string>
+    <string name="no_instructions">Нет сохранённых инструкций</string>
+    <string name="error_loading">Ошибка загрузки</string>
+    <string name="retry_button">Повторить попытку</string>
+    <string name="save_to_pdf">Сохранить в PDF</string>
+    <string name="rename">Переименовать</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_confirmation_title">Подтверждение удаления</string>
+    <string name="delete_confirmation_message">Вы уверены, что хотите удалить эту инструкцию?</string>
+    <string name="delete_button">Удалить</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="rename_dialog_title">Переименовать инструкцию</string>
+    <string name="rename_dialog_hint">Введите новое название</string>
+    <string name="save_button">Сохранить</string>
+    <string name="instruction_image_desc">Изображение инструкции</string>
+    <string name="share_pdf_title">Поделиться PDF-файлом</string>
+    <string name="new_name_hint">Новое имя</string>
+    <string name="search_icon_description">Иконка поиска</string>
+
+    <!-- InstructionVariantScreen -->
+    <string name="back_button_description">Вернуться назад</string>
+    <string name="choose_instruction_title">Выберите инструкцию</string>
+    <string name="instruction_1_label">Инструкция 1</string>
+    <string name="instruction_2_label">Инструкция 2</string>
+    <string name="generated_image_1_desc">Сгенерированное изображение 1</string>
+    <string name="generated_image_2_desc">Сгенерированное изображение 2</string>
+
+    <!-- InstructionScreen -->
+    <string name="nails_count_label_with_value">Гвоздей: %d</string>
+    <string name="lines_count_label_with_value">Линий: %d</string>
+    <string name="playback_speed">Скорость воспроизведения</string>
+    <string name="step_pause">Пауза между шагами (сек)</string>
+    <string name="skip_backward">Назад на 10 шагов</string>
+    <string name="skip_forward">Вперёд на 10 шагов</string>
+    <string name="play_button">Запустить</string>
+    <string name="pause_button">Пауза</string>
+    <string name="instruction_not_found">Инструкция не найдена</string>
+    <string name="set_bookmark">Добавить закладку</string>
+    <string name="bookmark_label">Закладка</string>
+    <string name="save_instruction_dialog_title">Сохранение инструкции</string>
+    <string name="save_instruction_dialog_message">Сохранить инструкцию перед выходом?</string>
+    <string name="download_pdf">Экспорт в PDF</string>
+    <string name="download_complete">PDF готов</string>
+
+    <!-- Collapsible controls -->
+    <string name="expand_controls">Развернуть настройки воспроизведения</string>
+    <string name="collapse_controls">Свернуть настройки воспроизведения</string>
+    <string name="voice_settings_icon">Настройки голосового воспроизведения</string>
+    <string name="collapse_icon">Свернуть панель</string>
+
+    <!-- Общие действия -->
+    <string name="back_button">Назад</string>
+    <string name="close_button">Закрыть</string>
+    <string name="ok_button">OK</string>
+    <string name="loading">Загрузка…</string>
+
+    <!-- SettingsScreen -->
+    <string name="settings_title">Настройки</string>
+    <string name="app_theme_title">Тема приложения</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="sound_settings_title">Настройки звука</string>
+    <string name="speech_rate_label">Скорость воспроизведения</string>
+    <string name="step_pause_label">Пауза между шагами</string>
+    <string name="speed_suffix">×</string>
+    <string name="seconds_suffix">с</string>
+
+</resources>

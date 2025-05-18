@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!--    <style name="Theme.StringCanvas" parent="android:Theme.Material.Light.NoActionBar" >-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="android:windowFullscreen">true</item>  &lt;!&ndash; Ключевой параметр &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="Theme.StringCanvas" parent="android:Theme.Material.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Базовые настройки темы &ndash;&gt;-->
+<!--        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>-->
+<!--        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">?attr/isLightTheme</item>-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+<!--        <item name="android:navigationBarColor">@android:color/transparent</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.StringCanvas.Splash" parent="Theme.SplashScreen">-->
+<!--        <item name="windowSplashScreenBackground">@color/splash_background</item>-->
+<!--        <item name="postSplashScreenTheme">@style/Theme.StringCanvas</item>-->
+<!--    </style>-->
+
+    <style name="Theme.StringCanvas" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">?attr/isLightTheme</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+<!--        <item name="android:navigationBarColor">@color/sys_el_background</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Theme.StringCanvas.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.StringCanvas</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+</resources>

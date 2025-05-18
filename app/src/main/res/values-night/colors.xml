@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="splash_background">@android:color/black</color>
+    <color name="soft_black" tools:ignore="MissingDefaultResource">#FF1E1E1E</color>
+    <color name="sys_el_background">#FF1E1E1E</color>
+</resources>

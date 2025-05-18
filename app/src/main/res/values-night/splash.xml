@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SplashScreen.StringCanvas" parent="Theme.SplashScreen.IconBackground">
+<!--        <item name="windowSplashScreenBackground">#FF1E1E1E</item>-->
+        <item name="windowSplashScreenBackground">#3C3C3C</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenIconBackgroundColor">@drawable/splash_gradient</item>
+        <item name="postSplashScreenTheme">@style/Theme.StringCanvas</item>
+    </style>
+</resources>
